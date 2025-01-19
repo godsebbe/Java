@@ -11,6 +11,8 @@ package org.yourcompany.yourproject;
 public class Java {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!f");
+        System.out.println("Welcome to Java");
+        System.out.println("Welcome to Computer Science");
+        System.out.println("Programming is fun");
     }
 }
