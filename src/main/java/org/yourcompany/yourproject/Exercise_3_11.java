@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Exercise_3_11 {
 
+    //Method used to get the number of days in a month accurately and returning the value.
     public static int DaysInMonth(int month, int year) {
 
         if(month == 2) {
