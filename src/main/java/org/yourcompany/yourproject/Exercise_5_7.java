@@ -3,7 +3,7 @@ package org.yourcompany.yourproject;
 public class Exercise_5_7 {
 
     public static void main(String[] args) {
-
+        // Variables 
         double tuition = 10000;
         double annualIncrease = 0.05;
         int years = 10;
@@ -14,7 +14,7 @@ public class Exercise_5_7 {
             tuition += tuition * annualIncrease;
         }
             
-        //First printed message that states the tuition after 10 years.
+        // First printed message that states the tuition after 10 years.
         System.out.printf("Tuition after %d years: $%.2f\n", years, tuition);
 
         // Loop from 1 to 4 that goes from year 10 to year 13 and the total tuition cost after 4 years.
@@ -24,7 +24,7 @@ public class Exercise_5_7 {
             tuition += tuition * annualIncrease;
             
         }
-        //Printed message that states the totla cost of 4 years of tuition.
+        // Printed message that states the total cost of 4 years of tuition.
         System.out.printf("Total cost of four years tuition between year 10 to year 13: $%.2f\n", totalCost);
     }
     
